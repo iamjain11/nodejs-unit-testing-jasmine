@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-unit-testing-jasmine",
+  "version": "1.0.0",
+  "description": "Node.Js Express API Testing with Jasmine Framework(Unit Testing Sample)",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/jasmine/bin/jasmine.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamjain11/nodejs-unit-testing-jasmine.git"
+  },
+  "keywords": [
+    "Node.Js",
+    "Express.Js",
+    "Jasmine.Js"
+  ],
+  "author": "Vivek Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamjain11/nodejs-unit-testing-jasmine/issues"
+  },
+  "homepage": "https://github.com/iamjain11/nodejs-unit-testing-jasmine#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.4.0"
+  }
+}
